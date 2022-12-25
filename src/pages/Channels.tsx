@@ -8,7 +8,7 @@ import { PlusIcon, ChevronDownIcon } from '@heroicons/react/outline';
 import { auth, db } from '../firebase';
 import { ServerIcon, ChannelItem } from '../components';
 import { Channel } from './index';
-import { MicrophoneIcon, PhoneIcon, CogIcon } from '@heroicons/react/outline';
+import { MicrophoneIcon, PhoneIcon, CogIcon } from '@heroicons/react/solid';
 
 const Channels = () => {
   const [user] = useAuthState(auth);
